@@ -1,3 +1,5 @@
+[![CI - Build & Deploy to Vercel](https://github.com/yo-geshwari/Portfolio/actions/workflows/vercel-ci.yml/badge.svg)](https://github.com/yo-geshwari/Portfolio/actions/workflows/vercel-ci.yml)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
