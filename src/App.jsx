@@ -117,6 +117,38 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "PennyWise",
+      description:
+        "PennyWise is a personal finance web app built with Angular that helps users track monthly budgets, expenses, and subscriptions with persistent local storage.",
+      tech: [
+        "Angular (Standalone Components)",
+        "TypeScript",
+        "Bootstrap 5",
+        "Chart.js",
+        "Browser localStorage",
+      ],
+      github: "https://github.com/yo-geshwari/PennyWise",
+      live: "https://penny-wise-zeta.vercel.app/",
+      impact: "First Angular Project | Typescript",
+    },
+    {
+      title: "Amelog",
+      description:
+        "An emotion-adaptive music web application that senses a user’s facial emotions in real time and plays background music that aligns with their emotional state.",
+      tech: [
+        "React",
+        "FastAPI",
+        "Web Audio API",
+        "MediaDevices API",
+        "TensorFlow / Keras",
+        "OpenCV",
+        "MediaPipe",
+      ],
+      github: "https://github.com/yo-geshwari/Amelog_react_fastAPI",
+      live: "https://vibe-tube-frontend.vercel.app/",
+      impact: "CV Project | CNN",
+    },
+    {
       title: "VibeTube",
       description:
         "Full-stack video sharing platform with user authentication, video upload, and streaming capabilities.",
@@ -169,6 +201,16 @@ const Portfolio = () => {
   ];
 
   const achievements = [
+    {
+      title: "AgenticAI Fluency - Udacity",
+      year: "2026",
+      category: "Course Certificate",
+    },
+    {
+      title: "GenAI Fluency - Udacity",
+      year: "2026",
+      category: "Course Certificate",
+    },
     {
       title: "Smart India Hackathon Finalist",
       year: "2024",
